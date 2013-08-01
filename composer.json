@@ -1,0 +1,48 @@
+{
+    "name": "dflydev/stack-firewall",
+    "description": "Stack Firewall middleware",
+    "keywords": ["stack", "stack-2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dragonfly Development Inc.",
+            "email": "info@dflydev.com",
+            "homepage": "http://dflydev.com"
+        },
+        {
+            "name": "Beau Simensen",
+            "email": "beau@dflydev.com",
+            "homepage": "http://beausimensen.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Dflydev\\Stack": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dflydev/dflydev-stack-authentication"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "dflydev/stack-authentication": "1.0.*@dev",
+        "symfony/http-foundation": "~2.1",
+        "symfony/http-kernel": "~2.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.21",
+        "silex/silex": "1.1.*@dev",
+        "stack/builder": "~1.0@dev",
+        "stack/callable-http-kernel": "~1.0@dev",
+        "stack/inline": "~1.0@dev",
+        "symfony/browser-kit": "~2.1"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
