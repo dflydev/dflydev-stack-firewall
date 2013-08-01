@@ -1,6 +1,6 @@
 {
     "name": "dflydev/stack-firewall",
-    "description": "Stack Firewall middleware",
+    "description": "Firewall Stack middleware",
     "keywords": ["stack", "stack-2"],
     "license": "MIT",
     "authors": [
