@@ -82,12 +82,11 @@ $authenticate = function (HttpKernelInterface $app, $anonymous) {
     // * MUST return a response
 };
 
-return (new Firewall($app, [
-        'challenge' => $challenge,
-        'authenticate' => $authenticate,
-        'firewall' => $firewall,
-    ]))
-    ->handle($request, $type, $catch);
+$app = new Firewall($app, [
+    'challenge' => $challenge,
+    'authenticate' => $authenticate,
+    'firewall' => $firewall,
+]);
 ```
 
 
