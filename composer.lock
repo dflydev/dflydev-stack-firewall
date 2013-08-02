@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0458cf8b868f479857d304a22b41cc68",
+    "hash": "850d70cf0289065a03fa2394da78753c",
     "packages": [
         {
             "name": "dflydev/stack-authentication",
@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dflydev/dflydev-stack-authentication.git",
-                "reference": "f54c4cce23c4610795910d4d7f989b8493a1f079"
+                "reference": "cb0b589e1eff3b2197515d0b05d4ffa96247ae91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dflydev/dflydev-stack-authentication/zipball/f54c4cce23c4610795910d4d7f989b8493a1f079",
-                "reference": "f54c4cce23c4610795910d4d7f989b8493a1f079",
+                "url": "https://api.github.com/repos/dflydev/dflydev-stack-authentication/zipball/cb0b589e1eff3b2197515d0b05d4ffa96247ae91",
+                "reference": "cb0b589e1eff3b2197515d0b05d4ffa96247ae91",
                 "shasum": ""
             },
             "require": {
@@ -43,6 +43,7 @@
                     "Dflydev\\Stack": "src"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -58,16 +59,12 @@
                     "homepage": "http://beausimensen.com"
                 }
             ],
-            "description": "Middlewares to support Stack-2 Authentication conventions",
+            "description": "STACK-2 Authentication Middlewares",
             "keywords": [
                 "stack",
                 "stack-2"
             ],
-            "support": {
-                "source": "https://github.com/dflydev/dflydev-stack-authentication/tree/master",
-                "issues": "https://github.com/dflydev/dflydev-stack-authentication/issues"
-            },
-            "time": "2013-08-01 18:08:37"
+            "time": "2013-08-02 01:38:54"
         },
         {
             "name": "psr/log",
