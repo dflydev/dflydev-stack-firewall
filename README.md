@@ -17,7 +17,7 @@ Usage
 The Firewall middleware is a thin layer over [dflydev/stack-authentication][4]
 based STACK-2 Authentication middlewares.
 
-A **firewall* is defined as an array of associatve arrays representing paths
+A **firewall** is defined as an array of associatve arrays representing paths
 for which an authentication middleware should be concerned.
 
 If a requested path does not match a firewalled path, the firewall delegates the
