@@ -27,7 +27,7 @@ If a requested path matches and authentication is missing or invalid and
 anonymous requests are allowed, the request is allowed through the firewall
 without setting the `stack.authn.token`.
 
-If a requested path matches and authentication is missing or inavlid and
+If a requested path matches and authentication is missing or invalid and
 anonymous requests are NOT allowed, the firewall will challenge immediately.
 
 If no firewall is defined, the assumed configuration is:
