@@ -35,7 +35,7 @@ class Matcher
             if ($a['path'] === $b['path']) {
                 return 0;
             }
-            return -($a > $b ? 1 : -1);
+            return -($a['path'] > $b['path'] ? 1 : -1);
         });
     }
 
